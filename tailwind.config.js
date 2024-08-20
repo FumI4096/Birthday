@@ -5,8 +5,20 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundColor: {
-        'violet-primary-01': '#e7dff'
+      colors: {
+        'violet-primary': '#e7ddff',
+        'violet-secondary': '#b8b5f4',
+        'blue-primary': '#d8e1e8'
+      },
+      height:{
+        '100': '30rem'
+      },
+      fontFamily:{
+        'qwitcher-grypen': ["Qwitcher Grypen", "cursive"],
+        'jost': ["Jost", "sans-serif"]
+      },
+      boxShadow:{
+        'thick': '0 15px 0 #304674'
       }
     },
   },

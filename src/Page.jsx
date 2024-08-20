@@ -16,7 +16,7 @@ const Page = () => {
             {toggle && (
                 <>
                     <section className='absolute top-0 h-full w-full bg-black/60 flex justify-center items-center flex-col'>
-                        <article className='bg-pink-300 h-'>Hello</article>
+                        <article className='bg-pink-300 h-20'>Hello</article>
                     
                         <button onClick={() => {setToggle(false)}}>click again</button>
                     </section>

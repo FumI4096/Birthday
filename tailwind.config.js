@@ -8,10 +8,16 @@ module.exports = {
       colors: {
         'violet-primary': '#e7ddff',
         'violet-secondary': '#b8b5f4',
-        'blue-primary': '#d8e1e8'
+        'blue-primary': '#d8e1e8',
+        'pink-primary': '#ffd1dc',
+        'green-primary': '#cdeac7'
       },
       height:{
-        '100': '30rem'
+        '100': '30rem',
+        '110': '40rem'
+      },
+      width:{
+        '130': '60rem',
       },
       fontFamily:{
         'qwitcher-grypen': ["Qwitcher Grypen", "cursive"],

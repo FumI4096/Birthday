@@ -25,6 +25,22 @@ module.exports = {
       },
       boxShadow:{
         'thick': '0 15px 0 #304674'
+      },
+      keyframes:{
+        sliding: {
+          '0%': {top: '-20rem'},
+          '50%': {top: '1.5rem'},
+          '100%': {top: '0'}
+        },
+        reverseSliding: {
+          '0%': {top: '20rem'},
+          '50%': {top: '-1.5rem'},
+          '100%': {top: '0'}
+        }
+      },
+      animation:{
+        sliding: 'sliding 1s ease',
+        reversesliding: 'reverseSliding 1s ease'
       }
     },
   },

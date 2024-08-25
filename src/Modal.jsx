@@ -6,24 +6,21 @@ import Krisha from "./images/krisha.jpg"
 const Modal = ({ close }) => {
     return (
         <>
-            <section className='absolute top-0 h-full w-full bg-black/60 flex justify-center items-center'>
-                <article className='bg-pink-primary h-110 w-130 rounded-lg shadow-xl p-7 flex flex-col'>
-                    <aside className='bg-green-primary p-2 rounded-md self-end border-2 border-black cursor-pointer' onClick={close}>
-                        <IoCloseOutline className='text-3xl' />
+            <section className='absolute top-0 h-full w-full bg-black/60 flex justify-center items-center p-8'>
+                <article className='bg-pink-primary h-110 w-130 rounded-lg shadow-xl p-7 flex flex-col gap-3 max-lg:w-[90%] max-md:w-full max-md:h-full'>
+                    <aside className='bg-green-primary p-2 rounded-md self-end border-2 border-black cursor-pointer hover:bg-green-300' onClick={close}>
+                        <IoCloseOutline className='text-3xl'/>
                     </aside>
-                    <article className='flex h-full w-full max-h-full'>
-                        <aside className='flex-1 h-full max-h-full bg-black flex justify-center'>
-                            <img className='h-64' src={Krisha} alt="Picture of Krisha" />
+                    <article className='flex gap-2 h-full w-full max-lg:flex-col'>
+                        <aside className='flex-1 h-full flex justify-center'>
+                            <img className='h-100 rounded-md max-lg:rounded-full max-lg:h-80' src={Krisha} alt="krisha"/>
                         </aside>
-                        <article className='flex-1'>
+                        <article className='flex-1 max-lg:flex max-lg:items-center max-lg:flex-col'>
                             <h1>Happy Birthday Darling &#60;3</h1>
-                            <p></p>
+                            <p>h</p>
                         </article>
                     </article>
-
                 </article>
-                
-
             </section>
         </>
     )
